@@ -1,0 +1,14 @@
+.page-footer {
+  color: $accent;
+}
+
+.page-footer__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.page-footer__links {
+  display: flex;
+  justify-content: space-between;
+}

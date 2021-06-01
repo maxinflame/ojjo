@@ -1,0 +1,22 @@
+.socials {
+  color: $accent;
+  text-align: center;
+}
+
+.socials__hashtag {
+  font-size: 21px;
+  line-height: 29px;
+}
+
+.socials__media {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.socials__first-video {
+  grid-column: 1 / 3;
+}
+
+.socials__second-video {
+  grid-column: 3 / 5;
+}

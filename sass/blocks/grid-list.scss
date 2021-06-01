@@ -1,0 +1,11 @@
+.grid-list {
+  list-style: none;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-list__item {
+  background: linear-gradient(180deg, rgba(135, 135, 135, 0.345745) 0%, rgba(180, 180, 180, 0) 0%, rgba(180, 180, 180, 0) 0.01%, rgba(180, 180, 180, 0) 2.08%, #333333 100%);
+  color: $basic-white;
+}

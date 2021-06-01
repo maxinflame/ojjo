@@ -1,0 +1,20 @@
+.promo {
+  background: linear-gradient( $promo-background-color, $promo-background-color), url("../img/promo-background.jpg");
+  background-position: center top;
+  text-align: center;
+}
+
+.promo__slogan {
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.promo__partners-list {
+  list-style: none;
+  display: flex;
+}
+
+.promo__button {
+  border: 1px solid $basic-white;
+}

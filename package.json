@@ -1,0 +1,22 @@
+{
+  "name": "ojjo",
+  "version": "1.0.0",
+  "description": "jewelry store",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "maxinflame",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemap": "^1.0.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ]
+}
